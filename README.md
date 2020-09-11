@@ -1,8 +1,12 @@
-NPM Install
+NPM install
 
-NPM Start
-or 
-Start with nodemon
+NPM init
+
+node start server.js
+
+or
+
+nodemon server.js
 
 Install Client Rest Plugin
 
