@@ -2,7 +2,7 @@ NPM install
 
 NPM init
 
-node start server.js
+node server.js
 
 or
 
