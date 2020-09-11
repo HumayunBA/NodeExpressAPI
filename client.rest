@@ -1,0 +1,20 @@
+POST http://localhost:8000/addtask
+Content-Type: application/json
+
+{
+ "newtask" : "Shopping"
+}
+
+###
+
+POST http://localhost:8000/
+Content-Type: application/json
+
+{
+ "city" : "delhi"
+}
+
+
+###
+GET http://localhost:8000/
+Content-Type: application/json

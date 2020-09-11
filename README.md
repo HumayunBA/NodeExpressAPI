@@ -1,10 +1,36 @@
 # NodeExpressAPI
+NPM Install
+
+NPM Start
+or 
+Start with nodemon
+
+Install Client Rest Plugin
+
+Run the application
+
+This is a weather api and task builder api built with external and internal apies in NodeJs and Express. 
+Please install dependencies if not existing. All dependencies have been globally installed however. Doing above will run the app.
+
+-----------------------------------------------------------------------------
+
+POST http://localhost:8000/addtask
+Content-Type: application/json
+
+{
+ "newtask" : "Shopping"
+}
+
+###
+
+POST http://localhost:8000/
+Content-Type: application/json
+
+{
+ "city" : "delhi"
+}
 
 
-Internal and external REST API using NodeJs and Express.
-
-Interal RESTFUL API for activity planning, external API for checking the weather.
-
-npm install
-npm init
-install express and body parsing dependencies required.
+###
+GET http://localhost:8000/
+Content-Type: application/json
